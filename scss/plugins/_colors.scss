@@ -1,0 +1,119 @@
+// **********************************************************
+// Colors
+// Default framework colors
+// **********************************************************
+
+// Links
+$a-defaultlinks: #3498db; // Default
+$a-defaultlinks-hover: #2980b9; // Hover
+
+
+// Tables
+$thead-tfoot-bg: #ecf0f1; // THEAD e TFOOTER - Background
+$thead-tfoot: #2c3e50; // THEAD end TFOOTER - text
+$tbody-border: #ecf0f1; // TBODY - Border
+
+// Lists
+$ul-ol: #24495e; // List bullet
+
+// Rulers
+$hr: #bdc3c7; // Ruler border
+
+// Code tag: <code>
+$code-bg: #2c3e50;
+$code-txt: #2ecc71;
+
+// **********************************************************
+// Component: Forms
+
+$default-form: #e8e8e8; // Basic color
+$default-form-effect: #cfcfcf;  // Hover and Focus
+
+$disabled-form: #9c9c9c; // Disabled
+
+$select-default: #6a6a6a; // Select
+
+// **********************************************************
+// Component: Lightbox
+
+$gal-bg: rgba(0,0,0,0.7); // Background mask
+$gal-img-border: #ffffff; // Image border Full
+$gal-img-shadows: #444444; // Image shadow Full
+
+
+// **********************************************************
+// Component: Buttons
+
+// Red
+$danger-color-n: #c0392b; // Default
+$danger-color-h: #e74c3c; // Hover
+
+// Yellow
+$warning-color-n: #f39c12; // Default
+$warning-color-h: #f1c40f; // Hover
+
+// Green
+$success-color-n: #27ae60; // Default
+$success-color-h: #2ecc71; // Hover
+
+// Dark
+$dark-color-n: #2c3e50; // Default
+$dark-color-h: #34495e; // Hover
+
+// Disabled button
+$disabled-color-bg: #bdc3c7; // background
+$disabled-color: #ffffff; // text
+
+// Default link
+$default-link-button: #ecf0f1; // text
+$default-link-button-bg: #95a5a6; // background
+
+
+// **********************************************************
+// Component: Navbar
+
+$nav-bg: #1c1c1c; // Default dark background
+$project-name: #ecf0f1; // Project name
+$nav-activelink: #ffffff; // Active menu link
+$nav-link: #9c9c9c; // Default menu link
+$nav-rwd-menu: #ffffff; // Responsive menu
+
+
+// **********************************************************
+// Component: Alert
+
+// Red
+$alr-danger-color-n: #3f2019; // Background
+$alr-danger-color-h: #e74c3c; // Text
+
+// Yellow
+$alr-warning-color-n: #4a4200; // Background
+$alr-warning-color-h: #f1c40f; // Text
+
+// Green
+$alr-success-color-n: #2e4428; // Background
+$alr-success-color-h: #2ecc71; // Text
+
+// Blue
+$alr-info-color-n: #273348; // Background
+$alr-info-color-h: #3498db; // Text
+
+// Dark
+$alr-dark-color-n: #acb1b9; // Background
+$alr-dark-color-h: #34495e; // Text
+
+
+// **********************************************************
+// Component: Carousel
+
+$carousel-text-bg: rgba(0,0,0,0.75); // Subtitle background
+
+
+// **********************************************************
+// Component: Pagination
+
+$pagination-bg: #ecf0f1; // Pagination BG Color
+$pagination-border: #f39c12; // Pagnation border color
+$pagination-link: #f39c12; // Pagination link color
+$pagination-link-bg-hover: #f1c40f; // Pagination Background hover
+$pagination-link-color-hover: #ffffff; // Pagination link hover
