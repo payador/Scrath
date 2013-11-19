@@ -1,7 +1,6 @@
 # Scrath 2
 
-[How to use](#how-to-use)
-[The Grid](#the-grid) | [Containers](#containers) | [Rows](#rows) | [Blocks](#blocks) | [Nesting](#nesting)
+[How to use](#how-to-use) | [The Grid](#the-grid) | [Containers](#containers) | [Rows](#rows) | [Blocks](#blocks) | [Nesting](#nesting)
 
 After a long time developing ScrathFramework, I decided to put it easier and more flexible.
 So I started Scrath 2 project...
