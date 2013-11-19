@@ -15,6 +15,13 @@ With Scrath2 you have more freedom during development and fast prototype using o
 
 From ScrathFramework I removed a lot of old features that gave me a lot of problems such: Navbar, CSS Carousel and Lightbox effect in CSS. The animations ware very dificult to implement and I wanted something easier, it still with forms, icons and buttons, just the lightweight features from ScrathFramework.
 
+# Features
+* Mobile First grid
+* Bundled plugins
+** Form
+** Icons
+** Buttons
+** Debugger (For grid system)
 
 # How to use
 A simply documentation of how to use S2 in your projects and made a easier and fast web development/prototyping
@@ -91,7 +98,7 @@ In one row you can put:
 </div>
 ```
 
-### Nesting (Much blocks in one ROW)
+### Nesting
 If you want to extend the grid system you can nest and made combinations:
 
 This example shows a 4(creepy) grid system
@@ -118,6 +125,35 @@ This example shows a 4(creepy) grid system
 				</div>
 			</div>
 		</div>
+	</div>
+</div>
+```
+
+#### Much blocks in one ROW
+If you want to create only one row tou can use .begin
+```html
+<div class="container">
+	<div class="row">
+		<div class="block2-2"></div>
+		<div class="block2-2"></div>
+		<div class="block2-2 begin"></div>
+		<div class="block2-2"></div>
+		<div class="block1 begin"></div>
+		<div class="block1"></div>
+		<div class="block1"></div>
+	</div>
+</div>
+```
+
+#### Centering block
+Sometimes you dont need to use a lot of blocks in one project, but need a width to create them, so why can't you center a block?
+```html
+<div class="container">
+	<div class="row">
+		<div class="block1 middle"></div>
+	</div>
+	<div class="row">
+		<div class="block2-2 middle"></div>
 	</div>
 </div>
 ```
