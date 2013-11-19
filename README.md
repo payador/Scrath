@@ -1,5 +1,7 @@
 # Scrath 2
 
+[How to use](#how-to-use)
+
 After a long time developing ScrathFramework, I decided to put it easier and more flexible.
 So I started Scrath 2 project...
 
@@ -17,11 +19,11 @@ From ScrathFramework I removed a lot of old features that gave me a lot of probl
 
 # Features
 * Mobile First grid
-* Bundled plugins
-** Form
-** Icons
-** Buttons
-** Debugger (For grid system)
+* Bundled plugins (bellow)
+* Form
+* Icons
+* Buttons
+* Debugger (For grid system)
 
 # How to use
 A simply documentation of how to use S2 in your projects and made a easier and fast web development/prototyping
