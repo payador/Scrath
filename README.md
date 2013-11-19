@@ -26,7 +26,8 @@ From ScrathFramework I removed a lot of old features that gave me a lot of probl
 * Debugger (For grid system)
 
 # How to use
-A simply documentation of how to use S2 in your projects and made a easier and fast web development/prototyping
+A simply documentation of how to use S2 in your projects and made a easier and fast web development/prototyping.
+The documentation bellow will show you only how to use the CORE of Scrath2 - The Grid system! Plugins documentarion you can find on our Wiki.
 
 ## The Grid
 The grid system is the core of S2, it uses easy conventions of class names used in most CSS Frameworks in the market. This grid has only 3 columns for design proposes but you can extend it nesting containers, rows and blocks.
