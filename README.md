@@ -5,7 +5,7 @@ So I started Scrath 2 project...
 
 With Scrath2 you have more freedom during development and fast prototype using only what you need to use, I called it "plugins". You can import those plugins inside your main stylesheet separating better your project.
 
-´´´css
+´´´
 @import url('scrath.css'); /* Framework Core (The Grid system) */
 @import url('plugins/debugger.css'); /* Grid debugger */
 @import url('plugins/icons.css'); /* Font Awesome icons */
