@@ -11,11 +11,13 @@ With Scrath2 you have more freedom during development and fast prototype using o
 @import url('scrath.css'); /* Framework Core (The Grid system) */
 @import url('plugins/debugger.css'); /* Grid debugger */
 @import url('plugins/icons.css'); /* Font Awesome icons */
-@import url('plugins/form.css'); /* Default framework Form (Taken from SF) */
-@import url('plugins/button.css'); /* Default framework Buttons (Taken from SF) */
+@import url('plugins/form.css'); /* Default framework Form */
+@import url('plugins/button.css'); /* Default framework Buttons */
+@import url('plugins/visibility.css'); /* Default framework Buttons */
 ```
 
-From ScrathFramework I removed a lot of old features that gave me a lot of problems such: Navbar, CSS Carousel and Lightbox effect in CSS. The animations ware very dificult to implement and I wanted something easier, it still with forms, icons and buttons, just the lightweight features from ScrathFramework.
+From ScrathFramework, I removed a lot of old features that gave me a lot of problems such: Navbar, CSS Carousel and Lightbox effect in CSS. The animations ware very dificult to implement and I wanted something easier, it still with forms, icons and buttons, just the lightweight features from ScrathFramework.
+Maybe with time I could re-create those plugins and made easier to use.
 
 # Features
 * Mobile First grid
@@ -23,6 +25,7 @@ From ScrathFramework I removed a lot of old features that gave me a lot of probl
 * Form
 * Icons
 * Buttons
+* Visibility
 * Debugger (For grid system)
 
 # How to use
