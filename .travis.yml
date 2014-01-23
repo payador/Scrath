@@ -1,5 +1,5 @@
 script:
-  - "/build-sass.rb"
+  - "build/build-sass.rb"
 language: sass
 before_install:
   - gem install sass
