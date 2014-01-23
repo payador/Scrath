@@ -9,7 +9,7 @@ So I started Scrath 2 project...
 With Scrath2 you have more freedom during development and fast prototype using only what you need to use, I called it "plugins". You can import those plugins inside your main stylesheet separating better your project.
 
 ```css
-@import url('scrath.css'); /* Framework Core (The Grid system) */
+@import url('scrath-single.css'); /* Framework Core (The Grid system) */
 @import url('plugins/debugger.css'); /* Grid debugger */
 @import url('plugins/icons.css'); /* Font Awesome icons */
 @import url('plugins/form.css'); /* Default framework Form */
@@ -17,6 +17,11 @@ With Scrath2 you have more freedom during development and fast prototype using o
 @import url('plugins/visibility.css'); /* Default framework Buttons */
 ```
 
+Or use a bundled Scrath with all vendor plugins already included
+
+```css
+@import url('scrath-bundle.css'); /* All framework in one file */
+```
 From ScrathFramework, I removed a lot of old features that gave me a lot of problems such: Navbar, CSS Carousel and Lightbox effect in CSS. The animations ware very dificult to implement and I wanted something easier, it still with forms, icons and buttons, just the lightweight features from ScrathFramework.
 Maybe with time I could re-create those plugins and made easier to use.
 
