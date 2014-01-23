@@ -1,5 +1,5 @@
 script:
-  - "travis.rb"
+  - "/build-sass.rb"
 language: sass
 before_install:
   - gem install sass
