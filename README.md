@@ -1,4 +1,5 @@
 # Scrath 2
+[![Build Status](https://travis-ci.org/gustavokuklinski/Scrath2.png?branch=master)](https://travis-ci.org/gustavokuklinski/Scrath2)
 
 [How to use](#how-to-use) | [The Grid](#the-grid) | [Containers](#containers) | [Rows](#rows) | [Blocks](#blocks) | [Nesting](#nesting)
 
