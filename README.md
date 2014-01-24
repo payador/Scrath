@@ -34,6 +34,9 @@ Maybe with time I could re-create those plugins and made easier to use.
 * Visibility
 * Debugger (For grid system)
 
+# Tools
+Including a PSD(for photoshop) and XFC(for GIMP) for designers do build projects under Scrath2 Grid system.
+
 # How to use
 A simply documentation of how to use S2 in your projects and made a easier and fast web development/prototyping.
 The documentation bellow will show you only how to use the CORE of Scrath2 - The Grid system! Plugins documentation you can find on our Wiki.
@@ -169,3 +172,9 @@ Sometimes you dont need to use a lot of blocks in one project, but need a width 
 	</div>
 </div>
 ```
+
+# Contribuitors
+<a href="http://limatorres.com.br/" target="_blank">Gustavo Torres</a> - PSD Grid
+
+# License
+This project is under MIT License. Check the LICENSE file.
