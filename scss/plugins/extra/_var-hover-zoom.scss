@@ -1,0 +1,37 @@
+// **********************************************************
+// Hover Zoom 0.1
+// **********************************************************
+// Hover Zoom variables setup
+// Set how Hove Zoom is going to work according to your project
+//
+// HOVER ZOOM IS ONLY AVAIABLE FOR FIXED GRID!
+//
+// **********************************************************
+
+// **********************************************************
+
+// Set image width (Default full: 100%)
+$image-width: 100%;
+
+// Set image height (Default full: 100%)
+$image-height: 100%;
+
+// Set how many % the image is going to dislock (Touch only if you know what you are doing!)
+$image-scale-width-result: $image-width + 30%;
+$image-scale-height-result: $image-height + 30%;
+
+// Variable name (By this moment only one element is avaiable)
+$image-class: '.sample';
+
+// Set time to zoom (Default 2 seconds)
+$image-time: '.2s';
+
+// Image margins distortion (Top and left)
+$image-distortion-left: -14%;
+$image-distortion-top: -8%;
+
+// Image fixed height depending of the block you are using
+$image-fix-height-block1: 180px;
+$image-fix-height-block2: 360px;
+$image-fix-height-block2-2: 300px;
+$image-fix-height-block3: 600px;

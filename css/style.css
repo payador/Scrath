@@ -1,2 +1,6 @@
+/* Bundle with the GRID and Default vendor plugins */
 @import url('scrath-bundle.css');
-@import url('plugins/debugger.css');
+
+/* Extra plugins - OPTIONAL */
+@import url('plugins/extra/hover-zoom.css');
+@import url('plugins/extra/debugger.css');
