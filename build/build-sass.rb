@@ -29,7 +29,13 @@ raise pluginbutton unless $?.to_i == 0
 raise "Failed to Compile" unless File.exists?('css/plugins/visibility.css')
 puts "Plugin Visibility - worked successfully"
 
-plugindebugger = 'sass scss/plugins/debugger.scss css/plugins/debugger.scss'
-raise pluginbutton unless $?.to_i == 0
-raise "Failed to Compile" unless File.exists?('css/plugins/debugger.css')
-puts "Plugin Debugger - worked successfully"
+# Testing EXTRA PLUGINS
+pluginextradebugger = 'sass scss/plugins/debugger.scss css/plugins/extra/debugger.scss'
+raise pluginextrabutton unless $?.to_i == 0
+raise "Failed to Compile" unless File.exists?('css/plugins/extra/debugger.css')
+puts "Extra Plugin Debugger - worked successfully"
+
+pluginextrahoverzoom = 'sass scss/plugins/debugger.scss css/plugins/extra/hover-zoom.scss'
+raise pluginextrahoverzoom unless $?.to_i == 0
+raise "Failed to Compile" unless File.exists?('css/plugins/extra/hover-zoom.css')
+puts "Extra Plugin Hover Zoom - worked successfully"
