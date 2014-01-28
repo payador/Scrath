@@ -32,13 +32,13 @@ Or use a bundled Scrath with all vendor plugins already included. Just the EXTRA
 # Features
 * Mobile First grid
 
-## Bundled plugins
+### Bundled plugins
 * Form
 * Icons
 * Buttons
 * Visibility
 
-## Extra plugins
+### Extra plugins
 * Extra/Hover-Zoom
 * Extra/Debugger (For grid system)
 
