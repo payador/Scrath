@@ -7,10 +7,18 @@ Scrath2 is a tiny framework for web development and fast prototype using only wh
 
 ```css
 @import url('scrath-single.css'); /* Framework Core (The Grid system) */
+```
+
+Vendor plugins. Default Bundle
+```css
 @import url('plugins/icons.css'); /* Font Awesome icons */
 @import url('plugins/form.css'); /* Default framework Form */
 @import url('plugins/button.css'); /* Default framework Buttons */
 @import url('plugins/visibility.css'); /* Default framework Buttons */
+```
+
+Extra plugins add some features to S2
+```css
 @import url('plugins/extra/debugger.css'); /* Grid debugger */
 @import url('plugins/extra/hover-zoom.css'); /* Zoom image gallery just Hovering */
 ```
@@ -23,12 +31,12 @@ Or use a bundled Scrath with all vendor plugins already included. Just the EXTRA
 
 # Features
 * Mobile First grid
-* <b>Bundled plugins</b>:
+## Bundled plugins
 * Form
 * Icons
 * Buttons
 * Visibility
-* <b>Extra plugins</b>:
+## Extra plugins
 * Extra/Hover-Zoom
 * Extra/Debugger (For grid system)
 
