@@ -3,43 +3,41 @@
 
 [How to use](#how-to-use) | [The Grid](#the-grid) | [Containers](#containers) | [Rows](#rows) | [Blocks](#blocks) | [Nesting](#nesting)
 
-After a long time developing ScrathFramework, I decided to put it easier and more flexible.
-So I started Scrath 2 project...
-
-With Scrath2 you have more freedom during development and fast prototype using only what you need to use, I called it "plugins". You can import those plugins inside your main stylesheet separating better your project.
+Scrath2 is a tiny framework for web development and fast prototype using only what you need to use: The "plugins". You can import those plugins inside your main stylesheet separating better your project.
 
 ```css
 @import url('scrath-single.css'); /* Framework Core (The Grid system) */
-@import url('plugins/debugger.css'); /* Grid debugger */
 @import url('plugins/icons.css'); /* Font Awesome icons */
 @import url('plugins/form.css'); /* Default framework Form */
 @import url('plugins/button.css'); /* Default framework Buttons */
 @import url('plugins/visibility.css'); /* Default framework Buttons */
+@import url('plugins/extra/debugger.css'); /* Grid debugger */
+@import url('plugins/extra/hover-zoom.css'); /* Zoom image gallery just Hovering */
 ```
 
-Or use a bundled Scrath with all vendor plugins already included
+Or use a bundled Scrath with all vendor plugins already included. Just the EXTRAS are optional.
 
 ```css
 @import url('scrath-bundle.css'); /* All framework in one file */
 ```
-From ScrathFramework, I removed a lot of old features that gave me a lot of problems such: Navbar, CSS Carousel and Lightbox effect in CSS. The animations ware very dificult to implement and I wanted something easier, it still with forms, icons and buttons, just the lightweight features from ScrathFramework.
-Maybe with time I could re-create those plugins and made easier to use.
 
 # Features
 * Mobile First grid
-* Bundled plugins (bellow)
+* <b>Bundled plugins</b>:
 * Form
 * Icons
 * Buttons
 * Visibility
-* Debugger (For grid system)
+* <b>Extra plugins</b>:
+* Extra/Hover-Zoom
+* Extra/Debugger (For grid system)
 
 # Tools
 Including a PSD(for photoshop) and XFC(for GIMP) for designers do build projects under Scrath2 Grid system.
 
 # How to use
 A simply documentation of how to use S2 in your projects and made a easier and fast web development/prototyping.
-The documentation bellow will show you only how to use the CORE of Scrath2 - The Grid system! Plugins documentation you can find on our Wiki.
+The documentation bellow will show you only how to use the CORE of Scrath2 - The Grid system! Plugins documentation will come soon!
 
 ## The Grid
 The grid system is the core of S2, it uses easy conventions of class names used in most CSS Frameworks in the market. This grid has only 3 columns for design proposes but you can extend it nesting containers, rows and blocks.
