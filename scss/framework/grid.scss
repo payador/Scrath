@@ -3,30 +3,8 @@
 // ************************************************
 
 
-// Helpers
-// - Helper for grids
-@mixin grid {
-	min-height: 20px;
-	float: left;
-	position: relative;
-	display: inline-block;
-	vertical-align: top;
-}
+@import "var-framework";
 
-// - Helper for Containers
-@mixin container {
-	height: auto;
-	clear: both;
-	margin: 0 auto;
-	position: relative;
-}
-
-// - Helper full width image
-@mixin fullimg {
-	img {
-		width: 100%;
-	}
-}
 // ************************************************
 
 // Container Fluid with borders

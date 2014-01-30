@@ -1,7 +1,8 @@
 before_script:
   - "chmod +x scrath-testunity.rb"
+  - "chmod +x ./test-unit/*.rb"
 script:
-  - "scrath-testunity.rb"
+  - "ruby scrath-testunity.rb"
 language: sass
 before_install:
   - gem install sass
