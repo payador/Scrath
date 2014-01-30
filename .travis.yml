@@ -1,7 +1,7 @@
 before_script:
-  - "chmod +x build/build-sass.rb"
+  - "chmod +x build/sass-testunity.rb"
 script:
-  - "build/build-sass.rb"
+  - "build/sass-testunity.rb"
 language: sass
 before_install:
   - gem install sass

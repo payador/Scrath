@@ -1,7 +1,7 @@
 # Scrath 2
 [![Build Status](https://travis-ci.org/gustavokuklinski/Scrath2.png?branch=master)](https://travis-ci.org/gustavokuklinski/Scrath2)
 
-[How to use](#how-to-use) | [The Grid](#the-grid) | [Containers](#containers) | [Rows](#rows) | [Blocks](#blocks) | [Nesting](#nesting)
+[Development Web Server](#development-web-server) | [How to use](#how-to-use) | [The Grid](#the-grid) | [Containers](#containers) | [Rows](#rows) | [Blocks](#blocks) | [Nesting](#nesting)
 
 Scrath2 is a tiny framework for web development and fast prototype using only what you need to use: The "plugins". You can import those plugins inside your main stylesheet separating better your project.
 
@@ -44,6 +44,13 @@ Or use a bundled Scrath with all vendor plugins already included. Just the EXTRA
 
 # Tools
 Including a PSD(for photoshop) and XFC(for GIMP) for designers do build projects under Scrath2 Grid system.
+
+# Development Web Server
+Allow the developer building plugins for S2 and auto-compiling SASS into CSS and Unit Tests to start the server
+```bash
+$ruby webserver.rb
+```
+And follow the debugging messages
 
 # How to use
 A simply documentation of how to use S2 in your projects and made a easier and fast web development/prototyping.
