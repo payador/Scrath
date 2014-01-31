@@ -3,4 +3,7 @@
 
 /* Extra plugins - OPTIONAL */
 @import url('plugins/extra/hover-zoom.css');
+@import url('plugins/extra/navbar.css');
 @import url('plugins/extra/debugger.css');
+
+* {margin: 0; padding: 0;}

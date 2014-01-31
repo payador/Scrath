@@ -21,6 +21,7 @@ Extra plugins add some features to S2
 ```css
 @import url('plugins/extra/debugger.css'); /* Grid debugger */
 @import url('plugins/extra/hover-zoom.css'); /* Zoom image gallery just Hovering */
+@import url('plugins/extra/navbar.css'); /* Responsive Navbar with one level submenu */
 ```
 
 Or use a bundled Scrath with all vendor plugins already included. Just the EXTRAS are optional.
@@ -40,6 +41,7 @@ Or use a bundled Scrath with all vendor plugins already included. Just the EXTRA
 
 ### Extra plugins
 * Extra/Hover-Zoom
+* Extra/Navbar
 * Extra/Debugger (For grid system)
 
 # Tools
