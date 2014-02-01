@@ -1,5 +1,8 @@
 /* Bundle with the GRID and Default vendor plugins */
-@import url('scrath-bundle.css');
+@import url('scrath-single.css');
+
+/* Imported Plugins */
+@import url('plugins/button.css');
 
 /* Extra plugins - OPTIONAL */
 @import url('plugins/extra/hover-zoom.css');

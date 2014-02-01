@@ -3,7 +3,7 @@
 
 [Development Web Server](#development-web-server) | [How to use](#how-to-use) | [The Grid](#the-grid) | [Containers](#containers) | [Rows](#rows) | [Blocks](#blocks) | [Nesting](#nesting)
 
-Scrath2 is a tiny framework for web development and fast prototype using only what you need to use: The "plugins". You can import those plugins inside your main stylesheet separating better your project.
+Scrath2 is a tiny framework for web/mobile development and fast prototype using only what you need to use: The "plugins". You can import those plugins inside your main stylesheet separating better your project.
 
 ```css
 @import url('scrath-single.css'); /* Framework Core (The Grid system) */
@@ -53,6 +53,9 @@ Allow the developer building plugins for S2 and auto-compiling SASS into CSS and
 $ruby webserver.rb
 ```
 And follow the debugging messages
+
+# Mobile Development
+Build for FirefoxOS, Scrath2 can help the developer building front-end interfaces for any HTML5 Mobile application. The Mobile version is very small in bundle but keep the idea of plugins. THE MOBILE VERSION IS UNDER DEVELOPMENT!!!
 
 # How to use
 A simply documentation of how to use S2 in your projects and made a easier and fast web development/prototyping.
