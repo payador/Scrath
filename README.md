@@ -78,9 +78,6 @@ $ruby webserver.rb
 ```
 And follow the debugging messages
 
-# Mobile Development
-Build for FirefoxOS, Scrath2 can help the developer building front-end interfaces for any HTML5 Mobile application. The Mobile version is very small in bundle but keep the idea of plugins. THE MOBILE VERSION IS UNDER DEVELOPMENT!!!
-
 # How to use
 A simply documentation of how to use S2 in your projects and made a easier and fast web development/prototyping.
 The documentation bellow will show you only how to use the CORE of Scrath2 - The Grid system! Plugins documentation will come soon!
