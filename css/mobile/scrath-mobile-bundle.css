@@ -1895,7 +1895,7 @@ input[type="reset"],
 button {
   border: 2px solid #95a5a6;
   background: #95a5a6;
-  width: 100%;
+  width: 95%;
   border-radius: 2px;
   margin-top: 3px;
   padding: 5px 8px 5px 8px;
@@ -1903,7 +1903,8 @@ button {
   font-weight: bold;
   color: #ecf0f1;
   cursor: pointer;
-  display: inline-block; }
+  display: inline-block;
+  text-align: center; }
   input[type="submit"]:hover,
   input[type="reset"]:hover,
   button:hover {
@@ -1927,7 +1928,7 @@ button.bt-warning {
     background: #f1c40f; }
 
 .bt-warning {
-  width: 100%;
+  width: 95%;
   border-radius: 2px;
   margin-top: 3px;
   padding: 5px 8px 5px 8px;
@@ -1936,6 +1937,7 @@ button.bt-warning {
   color: #ecf0f1;
   cursor: pointer;
   display: inline-block;
+  text-align: center;
   border-color: #f39c12;
   background: #f39c12; }
   .bt-warning:hover, .bt-warning:focus, .bt-warning:active {
@@ -1959,7 +1961,7 @@ button.bt-danger {
     background: #e74c3c; }
 
 .bt-danger {
-  width: 100%;
+  width: 95%;
   border-radius: 2px;
   margin-top: 3px;
   padding: 5px 8px 5px 8px;
@@ -1968,6 +1970,7 @@ button.bt-danger {
   color: #ecf0f1;
   cursor: pointer;
   display: inline-block;
+  text-align: center;
   border-color: #c0392b;
   background: #c0392b; }
   .bt-danger:hover, .bt-danger:focus, .bt-danger:active {
@@ -1993,7 +1996,7 @@ button.bt-disabled {
     background: #bdc3c7; }
 
 .bt-disabled {
-  width: 100%;
+  width: 95%;
   border-radius: 2px;
   margin-top: 3px;
   padding: 5px 8px 5px 8px;
@@ -2002,6 +2005,7 @@ button.bt-disabled {
   color: #ecf0f1;
   cursor: pointer;
   display: inline-block;
+  text-align: center;
   border-color: #bdc3c7;
   background: #bdc3c7; }
   .bt-disabled:hover, .bt-disabled:focus, .bt-disabled:active {
@@ -2026,7 +2030,7 @@ button.bt-success {
     background: #2ecc71; }
 
 .bt-success {
-  width: 100%;
+  width: 95%;
   border-radius: 2px;
   margin-top: 3px;
   padding: 5px 8px 5px 8px;
@@ -2035,6 +2039,7 @@ button.bt-success {
   color: #ecf0f1;
   cursor: pointer;
   display: inline-block;
+  text-align: center;
   border-color: #27ae60;
   background: #27ae60; }
   .bt-success:hover, .bt-success:focus, .bt-success:active {
@@ -2058,7 +2063,7 @@ button.bt-dark {
     background: #34495e; }
 
 .bt-dark {
-  width: 100%;
+  width: 95%;
   border-radius: 2px;
   margin-top: 3px;
   padding: 5px 8px 5px 8px;
@@ -2067,6 +2072,7 @@ button.bt-dark {
   color: #ecf0f1;
   cursor: pointer;
   display: inline-block;
+  text-align: center;
   border-color: #2c3e50;
   background: #2c3e50; }
   .bt-dark:hover, .bt-dark:focus, .bt-dark:active {

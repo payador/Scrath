@@ -3,6 +3,8 @@
 
 /* Imported Plugins */
 @import url('plugins/button.css');
+@import url('plugins/form.css');
+@import url('plugins/icons.css');
 
 /* Extra plugins - OPTIONAL */
 @import url('plugins/extra/hover-zoom.css');

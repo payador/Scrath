@@ -9,12 +9,26 @@ Scrath2 is a tiny framework for web/mobile development and fast prototype using 
 @import url('scrath-single.css'); /* Framework Core (The Grid system) */
 ```
 
+```html
+<link rel="stylesheet" href="scrath-single.css" /> <!-- Framework Core (The Grid system) -->
+```
+
 Vendor plugins. Default Bundle
+
+Import on CSS
 ```css
 @import url('plugins/icons.css'); /* Font Awesome icons */
 @import url('plugins/form.css'); /* Default framework Form */
 @import url('plugins/button.css'); /* Default framework Buttons */
 @import url('plugins/visibility.css'); /* Default framework Buttons */
+```
+
+Or HTML calls
+```html
+<link rel="stylesheet" href="plugins/icons.css" /> <!-- Font Awesome icons -->
+<link rel="stylesheet" href="plugins/form.css" /> <!-- Default framework Form -->
+<link rel="stylesheet" href="plugins/button.css" /> <!-- Default framework Buttons -->
+<link rel="stylesheet" href="'plugins/visibility.css" /> <!-- Visibility on Handlet or Desktop -->
 ```
 
 Extra plugins add some features to S2
@@ -24,11 +38,21 @@ Extra plugins add some features to S2
 @import url('plugins/extra/navbar.css'); /* Responsive Navbar with one level submenu */
 ```
 
+```html
+<link rel="stylesheet" href="plugins/extra/debugger.css" /> <!-- Grid debugger -->
+<link rel="stylesheet" href="plugins/extra/hover-zoom.css" /> <!-- Zoom image gallery just Hovering -->
+<link rel="stylesheet" href="plugins/extra/navbar.css" /> <!-- Responsive Navbar with one level submenu -->
+```
+
 Or use a bundled Scrath with all vendor plugins already included. Just the EXTRAS are optional.
 
 ```css
 @import url('scrath-bundle.css'); /* All framework in one file */
 ```
+```html
+<link rel="stylesheet" href="scrath-bundle.css" />
+```
+
 
 # Features
 * Mobile First grid
