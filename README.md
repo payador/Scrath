@@ -219,3 +219,6 @@ Sometimes you dont need to use a lot of blocks in one project, but need a width 
 
 # License
 This project is under MIT License. Check the LICENSE file.
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/gustavokuklinski/scrath2/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
