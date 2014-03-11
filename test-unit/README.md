@@ -29,3 +29,6 @@ puts '-----------------------------------------------------'
 ```
 
 All vendor plugins had been tested before get packed! :)
+
+Extra plugins doesn't get tested, they are thirty-part. You can write tests for those by your own.
+If you want to made it better, help improving themes for existing plugins!

@@ -1,6 +1,8 @@
 # Scrath 2
 [![Build Status](https://travis-ci.org/gustavokuklinski/Scrath2.png?branch=master)](https://travis-ci.org/gustavokuklinski/Scrath2)
 
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/gustavokuklinski/scrath2/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
 [Development Web Server](#development-web-server) | [How to use](#how-to-use) | [The Grid](#the-grid) | [Containers](#containers) | [Rows](#rows) | [Blocks](#blocks) | [Nesting](#nesting)
 
 Scrath2 is a tiny framework for web/mobile development and fast prototype using only what you need to use: The "plugins". You can import those plugins inside your main stylesheet separating better your project.
@@ -219,6 +221,4 @@ Sometimes you dont need to use a lot of blocks in one project, but need a width 
 
 # License
 This project is under MIT License. Check the LICENSE file.
-
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/gustavokuklinski/scrath2/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
 
